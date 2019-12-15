@@ -5,7 +5,7 @@ By 4wekromi
 
 https://github.com/4weKromi/bash-icmp-lan
 
-Monitor device status from a web browser.
+Monitor device status from web browser.
 
 ### Tools :
 bash, awk, ping, json.
@@ -21,6 +21,8 @@ bash, awk, ping, json.
  
  - Open browser, goto bash-icmp-lan/ directory. ( eg: localhost/bash-icmp-lan/index.html )
  
+ ![screenshot-img](/res/Screenshot-00.png?raw=true "Screenshot 00")
+ 
  ### Notes :
  - ping & awk generates text files ping_report.txt, temp_1, temp_mod (incomplete json format)
- - user_ip_status.json contains latest genearated json. 
+ - user_ip_status.json contains latest generated json. 
