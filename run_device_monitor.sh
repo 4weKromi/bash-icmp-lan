@@ -6,12 +6,14 @@
 while [ 1 ]
 do
 	iter=0;
-	#ip_user_list=(system system internet);
+	#ip_user_list=(dev1 dev2);
+	#assigned device name below
 	ip_user_list[0]="Device 1";
 	ip_user_list[1]="Device 2";
-	#ip_list=(127.0.0.1 localhost google.com);
+	#ip_list=(127.0.0.1 localhost);
+	#assigned device ip below
 	ip_list[0]="192.168.0.2";
-	ip_list[1]="192.158.0.3";
+	ip_list[1]="192.168.0.3";
 	loop=`expr ${#ip_list[@]} - 1` # initial array index 0
 	echo "[" > temp_mod # creates a new draft json
 
