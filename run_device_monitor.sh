@@ -23,7 +23,7 @@ do
 		ping  -i 0.2 -s 0 -c 1 ${ip_list[$iter]} | grep "PING" > ping_report.txt
 		ping  -i 0.2 -s 0 -c 1 ${ip_list[$iter]} | grep "ttl" >> ping_report.txt
 		ip_addr=`awk 'NR==1 {print $2}' ping_report.txt` # line 1 : 2nd word
-		echo "_" $ip_addr
+		#echo "_" $ip_addr
 		ttl=`awk 'NR==2 {print $NF}' ping_report.txt` # line 2 : last word
 		check=0;
 		if [ -z "$ttl" ] # if not assigned
