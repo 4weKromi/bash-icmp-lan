@@ -3,7 +3,7 @@
 
 function readJsonFile(){
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "user_ip_status.json", true);
+    rawFile.open("GET", "res/user_ip_status.json", true);
     rawFile.onreadystatechange = function (){
         if(rawFile.readyState === 4){
             if(rawFile.status === 200 || rawFile.status == 0){
