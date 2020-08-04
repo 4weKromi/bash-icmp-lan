@@ -19,7 +19,7 @@ bash, awk, ping, json.
  
  - ./run_device_monitor.sh ( bash terminal )
  
- - Open browser, goto bash-icmp-lan/ directory. ( eg: localhost/bash-icmp-lan/index.html )
+ - Open browser, goto bash-icmp-lan/prod/ directory. ( eg: localhost/bash-icmp-lan/prod/index.html )
  
  ![screenshot-img](/res/Screenshot-00.png?raw=true "Screenshot 00")
  
