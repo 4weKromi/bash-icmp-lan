@@ -18,6 +18,10 @@ do
 	#assigned device ip below
 	ip_list[0]="192.168.0.2";
 	ip_list[1]="192.168.0.3";
+	if [ ! -d $res_path ]
+	then
+		mkdir res;
+	fi
 	loop=`expr ${#ip_list[@]} - 1` # initial array index 0
 	echo "[" > $res_path/temp_mod # creates a new draft json
 
